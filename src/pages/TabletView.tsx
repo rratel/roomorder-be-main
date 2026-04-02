@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { Store as StoreIcon, Home, LogOut, FileText, Bell, ShoppingCart, Coffee, Plus } from 'lucide-react';
 import { useAuth, useStore, useModal } from '../contexts';
-import { api } from '../api/mockBackend';
+import { api } from '../api';
 import { LoadingScreen, ModalWrapper } from '../components';
 import type { MenuItem, Store } from '../types';
 

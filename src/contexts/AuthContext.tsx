@@ -1,7 +1,6 @@
 import React, { createContext, useContext, useState, useRef, useEffect, type ReactNode } from 'react';
 import type { Session, Role } from '../types';
-import { api } from '../api/mockBackend';
-
+import { api } from '../api';
 //Context에서 관리할 상태와 함수의 타입을 정의
 interface AuthContextType {
   session: Session | null;

@@ -3,7 +3,7 @@ import { MonitorPlay, ShoppingCart, UtensilsCrossed, Home, LogOut, AlertCircle, 
 // Context와 공통 컴포넌트를 가져옵니다.
 import { useAuth, useStore, useModal } from '../contexts';
 import { LoadingScreen, ModalWrapper, SidebarBtn } from '../components';
-import { api } from '../api/mockBackend';
+import { api } from '../api';
 import type { Order, Call, Room, MenuItem } from '../types';
 
 export const AdminView: React.FC = () => {

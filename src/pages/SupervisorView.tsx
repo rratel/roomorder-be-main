@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ShieldCheck, Store as StoreIcon, LogOut, Plus, Trash2, Edit, User, Key, Smartphone } from 'lucide-react';
 import { useAuth, useStore, useModal } from '../contexts';
-import { api } from '../api/mockBackend';
+import { api } from '../api';
 import { SidebarBtn, ModalWrapper } from '../components';
 import type { Store, Room } from '../types';
 
