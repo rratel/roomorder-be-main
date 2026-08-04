@@ -8,7 +8,7 @@ import type { Session, Role, OrderItem, Store, GlobalDB,} from '../types';
  * [환경 설정]
  * VITE_API_URL은 .env 파일에서 관리합니다.
  * 개발 환경: http://localhost:3000
- * 배포 환경: [https://api.yourdomain.com](https://api.yourdomain.com)
+ * 배포 환경: https://www.roomorder.site
  */
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
 
